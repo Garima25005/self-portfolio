@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef0f4;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0a0f29, #1f2d86);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      background: white;
+      padding: 25px;
+      margin-top: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+    .project {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 15px 0;
+      background: #fafafa;
+    }
+    .project img {
+      width: 90%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .skill-box {
+      background: #f0f4ff;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      border: 1px solid #c7d2fe;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 15px;
+      background: #1a1a1a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Garima Portfolio</h1>
+    <p>Frontend Developer |  Learning JavaScript | React | UI/UX</p>
+    <img src="C:\Users\gtriv\Downloads\cutegirl.avif" class="profile-img">
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am a passionate frontend developer who loves creating beautiful and user-friendly websites.
+        I specialize in building responsive, fast and accessible designs. I enjoy solving real-world problems
+        with clean and efficient code.
+      </p>
+      <p>
+        I have experience working with HTML, CSS, JavaScript, React, UI/UX design and API integration.
+        My goal is to grow as a developer and take on challenging projects that make an impact.
+      </p>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <img src="C:\Users\gtriv\Downloads\java script.jpg" alt="Project 1 Image">
+        <h3>Portfolio Website</h3>
+        <p>A modern portfolio website showcasing my skills, projects and resume.</p>
+      </div>
+
+      <div class="project">
+        <img src="C:\Users\gtriv\Downloads\project 2.png" alt="Project 2 Image">
+        <h3>Weather App</h3>
+        <p>An app that shows real-time weather using API integration. Built using JavaScript.</p>
+      </div>
+
+      <div class="project">
+        <img src="C:\Users\gtriv\Downloads\task.png" alt="Project 3 Image">
+        <h3>To-Do Manager</h3>
+        <p>A simple and clean task-manager web app for daily productivity.</p>
+      </div>
+
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">HTML5</div>
+        <div class="skill-box">CSS3</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">React</div>
+        <div class="skill-box">Bootstrap</div>
+        <div class="skill-box">Git & GitHub</div>
+        <div class="skill-box">Responsive Design</div>
+        <div class="skill-box">API Integration</div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> XYX@example.com</p>
+      <p><strong>Phone:</strong> +91 99999 99999</p>
+      <p><strong>Address:</strong> GHAZIABAD, INDIA </p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2025 GARIMA Portfolio
+  </footer>
+</body>
+</html>
